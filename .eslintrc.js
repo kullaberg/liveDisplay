@@ -34,7 +34,6 @@ module.exports = {
     // "no-use-before-define": ["off"]
   },
   "globals": {
-    "Materialize": false,
-    "Instafeed": true,
+    "Materialize": false
   }
 };
