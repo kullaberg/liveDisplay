@@ -35,6 +35,6 @@ module.exports = {
   },
   "globals": {
     "Materialize": false,
-    "intervalID": true,
+    "Instafeed": true,
   }
 };
