@@ -2,4 +2,4 @@
 
 MIT Open Source
 
-[Preview Git HTML](https://cdn.rawgit.com/xtreemze/liveDisplay/master/index.html)
+[Preview Git HTML](https://rawgit.com/xtreemze/liveDisplay/master/index.html)
