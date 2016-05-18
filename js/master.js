@@ -31,11 +31,11 @@ document.addEventListener('keydown', function (e) {
     $('.slider').slider('next');
   } else if (e.keyCode === 34) {
     $('.slider').slider('prev');
-  } else if ((e.keyCode === 32 || 179) && !play) {
+  } else if (e.keyCode === (32 || 179) && !play) {
     $('.slider').slider('start');
     play = true;
     Materialize.toast('Play', 4000);
-  } else if ((e.keyCode === 32 || 179) && play) {
+  } else if (e.keyCode === (32 || 179) && play) {
     $('.slider').slider('pause');
     play = false;
     Materialize.toast('Pause', 4000);
