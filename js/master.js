@@ -28,9 +28,9 @@ document.addEventListener('keydown', function (e) {
   if (e.keyCode === 70) {
     toggleFullScreen();
   } else if (e.keyCode === 33) {
-    $('.slider').slider('next');
-  } else if (e.keyCode === 34) {
     $('.slider').slider('prev');
+  } else if (e.keyCode === 34) {
+    $('.slider').slider('next');
   } else if (e.keyCode === (32 || 179) && !play) {
     $('.slider').slider('start');
     play = true;
