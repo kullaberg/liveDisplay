@@ -25,17 +25,17 @@ function toggleFullScreen() {
   }
 }
 document.addEventListener('keydown', function (e) {
-  if (e.keyCode === 70) {
+  if (e.keyCode === 70 || 38) {
     toggleFullScreen();
-  } else if (e.keyCode === 33) {
+  } else if (e.keyCode === 37) {
     $('.slider').slider('prev');
-  } else if (e.keyCode === 34) {
+  } else if (e.keyCode === 39) {
     $('.slider').slider('next');
-  } else if (e.keyCode === (32 || 179) && !play) {
+  } else if (e.keyCode === (13) && !play) {
     $('.slider').slider('start');
     play = true;
     Materialize.toast('Play', 4000);
-  } else if (e.keyCode === (32 || 179) && play) {
+  } else if (e.keyCode === (13) && play) {
     $('.slider').slider('pause');
     play = false;
     Materialize.toast('Pause', 4000);
