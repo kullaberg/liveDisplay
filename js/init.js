@@ -3,7 +3,7 @@
     full_width: true,
     indicators: false,
     transition: 500,
-    interval: 8000,
+    interval: 10000,
   });
   // end of document ready
 }(jQuery));
