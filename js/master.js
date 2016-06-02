@@ -25,7 +25,7 @@ function toggleFullScreen() {
   }
 }
 document.addEventListener('keydown', function (e) {
-  if (e.keyCode === 70 || 38) {
+  if (e.keyCode === 38) {
     toggleFullScreen();
   } else if (e.keyCode === 37) {
     $('.slider').slider('prev');
@@ -39,6 +39,9 @@ document.addEventListener('keydown', function (e) {
     $('.slider').slider('pause');
     play = false;
     Materialize.toast('Pause', 4000);
+  }	else if (e.keyCode === (40)) {
+    Materialize.toast('Reloading page...', 4000);
+	                                                                                                                                                                                                                                                window.location.reload();
   }
 }, false);
 // play key is 179
