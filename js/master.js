@@ -39,9 +39,9 @@ document.addEventListener('keydown', function (e) {
     $('.slider').slider('pause');
     play = false;
     Materialize.toast('Pause', 4000);
-  }	else if (e.keyCode === (40)) {
+  } else if (e.keyCode === (40)) {
     Materialize.toast('Reloading page...', 4000);
-	                                                                                                                                                                                                                                                window.location.reload();
+    window.location.reload();
   }
 }, false);
 // play key is 179
