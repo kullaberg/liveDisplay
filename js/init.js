@@ -2,8 +2,8 @@
   $('.slider').slider({
     full_width: true,
     indicators: false,
-    transition: 800,
-    interval: 11100,
+    transition: 0,
+    interval: 16000,
   });
   // end of document ready
 }(jQuery));
