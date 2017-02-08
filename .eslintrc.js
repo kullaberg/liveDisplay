@@ -1,9 +1,7 @@
 // !minifyOnSave
 // minifyOnSave: false
-// !minOnSave
-// minOnSave: false
 module.exports = {
-  "ecmaVersion": 5,
+  "ecmaVersion": 6,
   "ecmaFeatures": {
     "jsx": false,
     "modules": false,
@@ -18,7 +16,6 @@ module.exports = {
   },
   "extends": "airbnb",
   "installedESLint": true,
-  "plugins": ["react"],
   "rules": {
     // "indent": [ "error", "tab" ],
     // "linebreak-style": [ "error", "windows" ],
