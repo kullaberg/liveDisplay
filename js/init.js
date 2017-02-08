@@ -2,7 +2,7 @@
   $('.slider').slider({
     full_width: true,
     indicators: false,
-    transition: 0,
+    transition: 300,
     interval: 16000,
     height: 1080,
   });
