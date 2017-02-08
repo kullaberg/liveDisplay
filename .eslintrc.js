@@ -34,7 +34,7 @@ module.exports = {
     // "no-use-before-define": ["off"]
   },
   "globals": {
-    "Materialize": false,
+    "Materialize": true,
     "toggleFullScreen": false
   }
 };
