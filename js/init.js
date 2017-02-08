@@ -4,6 +4,7 @@
     indicators: false,
     transition: 0,
     interval: 16000,
+    height: 1080,
   });
   // end of document ready
 }(jQuery));

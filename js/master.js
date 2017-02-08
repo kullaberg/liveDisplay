@@ -43,5 +43,5 @@ document.addEventListener('keydown', function (e) {
   }
 }, false);
 // play key is 179
-
-window.applicationCache.update();
+//
+// window.applicationCache.update();
