@@ -12,16 +12,14 @@ function toggleFullScreen() {
     } else if (document.documentElement.webkitRequestFullscreen) {
       document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
     }
-  } else {
-    if (document.exitFullscreen) {
-      document.exitFullscreen();
-    } else if (document.msExitFullscreen) {
-      document.msExitFullscreen();
-    } else if (document.mozCancelFullScreen) {
-      document.mozCancelFullScreen();
-    } else if (document.webkitExitFullscreen) {
-      document.webkitExitFullscreen();
-    }
+  } else if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.msExitFullscreen) {
+    document.msExitFullscreen();
+  } else if (document.mozCancelFullScreen) {
+    document.mozCancelFullScreen();
+  } else if (document.webkitExitFullscreen) {
+    document.webkitExitFullscreen();
   }
 }
 document.addEventListener('keydown', function (e) {
@@ -45,5 +43,5 @@ document.addEventListener('keydown', function (e) {
   }
 }, false);
 // play key is 179
-
-window.applicationCache.update();
+//
+// window.applicationCache.update();
